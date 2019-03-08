@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ *{
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+     color:blueviolet;
+ }
+ html,body{
+     margin: 0;
+     padding: 0;
+ }
+ .min-header{
+    background-color: regba(0,0,0,0.6);
+     background-image: url("download (5).jpg");
+     background-blend-mode: multiply;
+     background-size: cover;
+     padding-bottom: 30px;
+ }
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: .1em;
+    color:#FFFFFF;
+}
+.nav a:hover{
+    background-color:rgba(225, 255,255, .3);
+}
+.main-nav{
+    text-align: center;
+    font-size :1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(225, 255,255, .3);
+
+}
+.main-nav li{
+    padding: 0  5%;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color:#000000;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-band-image{
+   float: left;
+   height: 200px;
+   width: 200px; 
+   margin: 15px;
+   border-radius: 50%;
+}
+.min-footer{
+    background-color:#000000;
+    color: white;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    text-align: center;
+}
+.main-footer-container ul{
+    flex-grow:1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+}
+.band-name-large{
+    font-size: 8em;
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-item-tittle{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-item-imag{
+    height: 250px;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+}
+.shop-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

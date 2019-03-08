@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ *{
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+     color:darkkhaki;
+ }
+ html,body{
+     margin: 0;
+     padding: 0;
+ }
+ .min-header{
+     background-color:#0CCC52;
+     background-image: url("images (4).jpg");
+     background-blend-mode: multiply;
+     background-size: cover;
+     padding-bottom: 30px;
+ }
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em;
+    color: darkkhaki;
+}
+.nav a:hover{
+    background-color:rgba(225, 255,255, .3);
+}
+.main-nav{
+    text-align: center;
+    font-size :1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(225, 255,255, .3);
+
+}
+.main-nav li{
+    padding: 0  5%;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color:darkgoldenrod;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-band-image{
+   float: left;
+   height: 200px;
+   width: 200px; 
+   margin: 15px;
+   border-radius: 50%;
+}
+.min-footer{
+    background-color:darkgreen;
+    color: white;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    text-align: center;
+}
+.main-footer-container ul{
+    flex-grow:1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+}
+.band-name-large{
+    font-size: 8em;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header{
+    margin: .5em 25% 2em 15%;
+    color: darkkhaki;
+    border: 2px solid #209cdb;
+    background-color:rgba(225, 255,255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(225, 255,255, .3);
+
+}
+.btn-ply{
+    display: block;
+    margin: 0 auto;
+    color:darkkhaki;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px; 
+}
+.tours-row{
+    border-bottom: 1px solid #0CCC52;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tours-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: darkkhaki;
+    font-weight: bold;
+    width:11%;
+}
+.tour-city{
+    width:24%;
+}
+.tour-arena{
+    width:42%;
+}
+.tour-btn{
+    max-width:19%;
+}
